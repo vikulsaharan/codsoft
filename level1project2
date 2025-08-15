@@ -1,1 +1,140 @@
-# codsoft
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: #007bff;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background: #eaeaea;
+}
+
+.feature-box {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about, .contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Landing Page</h1>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to My Page</h2>
+    <p>Discover the power of clean design and creativity.</p>
+    <a href="#contact" class="btn">Get Started</a>
+  </section>
+
+  <section id="features" class="features">
+    <div class="feature-box">
+      <h3>Fast</h3>
+      <p>Lightning-fast performance and smooth experience.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Responsive</h3>
+      <p>Looks great on all devices, big or small.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Customizable</h3>
+      <p>Easy to tweak and make your own.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About This Project</h2>
+    <p>This landing page is built using HTML and CSS as part of my CodSoft internship.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email:shivankc061@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vikul Saharan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
